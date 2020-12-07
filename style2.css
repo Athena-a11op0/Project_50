@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&family=Playfair+Display+SC&display=swap');
+
+body{
+    background-image: url('d.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.7);
+    background-blend-mode: overlay;
+}
+
+p{
+    font-family: 'Playfair Display SC';
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.grid img{
+    margin-top: 150px;
+    width: 150px;
+    height: 150px;
+}
+
+.grid p{
+    font-family: 'Playfair Display SC';
+}
